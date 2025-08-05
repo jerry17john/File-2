@@ -3,7 +3,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 //import { createStackNavigator } from '@react-navigation/stack';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-// import Login from '../Screens/Login';
+import Login from '../Screens/Login';
 // import Dashboard from '../Screens/Dashboard';
 import Splash from '../Screens/Splash';
 // import Notifications from '../Screens/Notification';
@@ -95,8 +95,8 @@ function Navigation() {
         {/*<Stack.Screen name="Screen1" component={Screen1} />
         <Stack.Screen name="Screen2" component={Screen2} />*/}
         <Stack.Screen name="Splash" component={Splash} />
-        {/*<Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Notifications" component={Notifications} />
+        <Stack.Screen name="Login" component={Login} />
+        {/*<Stack.Screen name="Notifications" component={Notifications} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
         <Stack.Screen name="Consultation" component={Consultation} options={{}} />
         <Stack.Screen name="ConsultationEdit" component={ConsultationEdit} options={{}} />
